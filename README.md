@@ -1,2 +1,5 @@
 # DOM-Hackathon
-Team CPTDS
+Project for [DMC Hackathon](http://hackdmc.org)
+
+
+![alt tag[(https://pbs.twimg.com/media/CnhbM3GUMAAMuIz.jpg)
