@@ -1,6 +1,8 @@
 # DOM-Hackathon
 Project for [DMC Hackathon](http://hackdmc.org)
 
+## FDDPS: Fault Detection, Diagnosis and Prognosis System
+
 ### Team Members
 * [Taihua Li](https://www.linkedin.com/in/taihuali)
 * [Diaa Elkott](https://ca.linkedin.com/in/elkott)
