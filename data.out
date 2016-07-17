@@ -1,0 +1,45 @@
+MachineIdVector = [46
+72
+74
+75
+76]
+AlarmText1 = Hydraulics not on. Press hydraulic ON.
+AlarmText2 = Spindle bearing malfunction.
+AlarmText3 = Hydraulics not on. Press hydraulic ON.
+AlarmText4 = Spindle bearing malfunction.
+AlarmText5 = Lube loss at X-axis ways.
+MachineStatusVector = [1
+1
+0
+1
+1]
+NextActionText1 = Press hydraulic ON.
+NextActionText2 = Press hydraulic ON.
+NextActionText3 = Call support line.
+NextActionText4 = Call support line.
+NextActionText5 = Call support line.
+MachineMaker1 = Pfauter
+MachineMaker2 = Okuma
+MachineMaker3 = Okuma
+MachineMaker4 = Okuma
+MachineMaker5 = Okuma
+MachineModel1 = PE1600
+MachineModel2 = MA60H
+MachineModel3 = MA60H
+MachineModel4 = MA60H
+MachineModel5 = MC50H
+PredictiveAlarmText1_1 = $67917
+PredictiveAlarmText1_2 = $86000
+PredictiveAlarmText1_3 = $86001
+PredictiveAlarmText2_1 = $67917
+PredictiveAlarmText2_2 = $67918 11.32332 INCH
+PredictiveAlarmText2_3 = $67918 11.4852 INCH
+PredictiveAlarmText3_1 = Warning: no sufficient data for prediction.
+PredictiveAlarmText3_2 = Warning: no sufficient data for prediction.
+PredictiveAlarmText3_3 = Warning: no sufficient data for prediction.
+PredictiveAlarmText4_1 = Warning: no sufficient data for prediction.
+PredictiveAlarmText4_2 = Warning: no sufficient data for prediction.
+PredictiveAlarmText4_3 = Warning: no sufficient data for prediction.
+PredictiveAlarmText5_1 = Warning: no sufficient data for prediction.
+PredictiveAlarmText5_2 = Warning: no sufficient data for prediction.
+PredictiveAlarmText5_3 = Warning: no sufficient data for prediction.

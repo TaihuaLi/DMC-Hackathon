@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="0715a33a-dce9-1004-8604-802e95f2ec1f" name="Default Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+        <defaultinterface/>
+    </interfaceinfo>
+    <parameters>
+        <parameter id="1b06313a-dce9-1004-8973-72aaea51cb19" name="input">
+            <currentType value="Integer"/>
+            <data>
+                <dataobject type="Integer">
+                    <quantity magnitude="0" unit="No_Unit"/>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="0ad1bc9e-dcea-1004-8cb5-3bfe5dbabfe1" name="MachineIdVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6606772c-dcea-1004-8779-341354bf9d05" name="MachineStatusVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="66067741-dcea-1004-8779-341354bf9d05" name="AlarmText">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="66067744-dcea-1004-8779-341354bf9d05" name="NextActionText">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="1b06313b-dce9-1004-8973-72aaea51cb19" name="input">
+            <currentType value="Integer"/>
+            <data>
+                <dataobject type="Integer">
+                    <quantity magnitude="0" unit="No_Unit"/>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1" name="MachineIdVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6606772d-dcea-1004-8779-341354bf9d05" name="MachineStatusVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="66067742-dcea-1004-8779-341354bf9d05" name="AlarmText">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="66067745-dcea-1004-8779-341354bf9d05" name="NextActionText">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+    </parameters>
+    <visualizations/>
+    <relations/>
+    <contexts>
+        <context id="IFACE_MODEL_CXT" name="Model View">
+            <modelobjects>
+                <parameter name="input" idRef="1b06313a-dce9-1004-8973-72aaea51cb19"/>
+                <parameter name="MachineIdVector" idRef="0ad1bc9e-dcea-1004-8cb5-3bfe5dbabfe1"/>
+                <parameter name="MachineStatusVector" idRef="6606772c-dcea-1004-8779-341354bf9d05"/>
+                <parameter name="AlarmText" idRef="66067741-dcea-1004-8779-341354bf9d05"/>
+                <parameter name="NextActionText" idRef="66067744-dcea-1004-8779-341354bf9d05"/>
+            </modelobjects>
+        </context>
+    </contexts>
+    <views>
+        <view name="Build View">
+            <context id="IFACE_BUILD_CXT" name="Build View">
+                <modelobjects>
+                    <parameter name="input" idRef="1b06313b-dce9-1004-8973-72aaea51cb19"/>
+                    <parameter name="MachineIdVector" idRef="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1"/>
+                    <parameter name="MachineStatusVector" idRef="6606772d-dcea-1004-8779-341354bf9d05"/>
+                    <parameter name="AlarmText" idRef="66067742-dcea-1004-8779-341354bf9d05"/>
+                    <parameter name="NextActionText" idRef="66067745-dcea-1004-8779-341354bf9d05"/>
+                </modelobjects>
+            </context>
+        </view>
+        <view name="Interface Causality View">
+            <filter id="INPUTS_FILTER" name="Inputs">
+                <parameters>
+                    <parameter name="input" idRef="1b06313b-dce9-1004-8973-72aaea51cb19"/>
+                </parameters>
+            </filter>
+            <filter id="OUTPUTS_FILTER" name="Outputs">
+                <parameters>
+                    <parameter name="MachineIdVector" idRef="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1" causality="Result"/>
+                    <parameter name="NextActionText" idRef="66067745-dcea-1004-8779-341354bf9d05" causality="Result"/>
+                    <parameter name="AlarmText" idRef="66067742-dcea-1004-8779-341354bf9d05" causality="Result"/>
+                    <parameter name="MachineStatusVector" idRef="6606772d-dcea-1004-8779-341354bf9d05" causality="Result"/>
+                </parameters>
+            </filter>
+            <filter id="INDETERMINATES_FILTER" name="Indeterminates"/>
+        </view>
+    </views>
+    <directedGraph id="0715a33a-dce9-1004-8604-802e95f2ec1f">
+        <nodes>
+            <node idRef="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1"/>
+            <node idRef="1b06313b-dce9-1004-8973-72aaea51cb19"/>
+            <node idRef="6606772d-dcea-1004-8779-341354bf9d05"/>
+            <node idRef="66067742-dcea-1004-8779-341354bf9d05"/>
+            <node idRef="66067745-dcea-1004-8779-341354bf9d05"/>
+        </nodes>
+        <arcs>
+            <from idRef="1b06313b-dce9-1004-8973-72aaea51cb19">
+                <to idRef="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1"/>
+                <to idRef="6606772d-dcea-1004-8779-341354bf9d05"/>
+                <to idRef="66067742-dcea-1004-8779-341354bf9d05"/>
+                <to idRef="66067745-dcea-1004-8779-341354bf9d05"/>
+            </from>
+        </arcs>
+    </directedGraph>
+    <interfaceToRelParamMap>
+        <iToRpMap relParamId="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1" ifaceId="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1"/>
+        <iToRpMap relParamId="1b06313b-dce9-1004-8973-72aaea51cb19" ifaceId="1b063139-dce9-1004-8973-72aaea51cb19"/>
+        <iToRpMap relParamId="6606772d-dcea-1004-8779-341354bf9d05" ifaceId="6606772b-dcea-1004-8779-341354bf9d05"/>
+        <iToRpMap relParamId="66067742-dcea-1004-8779-341354bf9d05" ifaceId="66067740-dcea-1004-8779-341354bf9d05"/>
+        <iToRpMap relParamId="66067745-dcea-1004-8779-341354bf9d05" ifaceId="66067743-dcea-1004-8779-341354bf9d05"/>
+    </interfaceToRelParamMap>
+</modelinterface>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model type="PluginModel" id="0715a331-dce9-1004-8604-802e95f2ec1f" name="CPTDS" pluginType="NAME_VALUE">
+    <modelinfo>
+        <version>0.0.3</version>
+    </modelinfo>
+    <parameters>
+        <parameter id="0715a343-dce9-1004-8604-802e95f2ec1f" name="output">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/home/jbarkley/dmc_code/dome/models/hackathon/xaa.out</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="0715a344-dce9-1004-8604-802e95f2ec1f" name="program">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/home/jbarkley/dmc_code/dome/models/hackathon/reader.py</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="0715a372-dce9-1004-8604-802e95f2ec1f" name="data">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/home/jbarkley/dmc_code/dome/models/hackathon/xaa</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="1b063139-dce9-1004-8973-72aaea51cb19" name="input">
+            <currentType value="Integer"/>
+            <data>
+                <dataobject type="Integer">
+                    <quantity magnitude="0" unit="No_Unit"/>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" name="MachineIdVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6606772b-dcea-1004-8779-341354bf9d05" name="MachineStatusVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="66067740-dcea-1004-8779-341354bf9d05" name="AlarmText5">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="66067743-dcea-1004-8779-341354bf9d05" name="NextActionText5">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f62199e-dcea-1004-8831-57995c43e86e" name="MachineModel2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219e0-dcea-1004-8831-57995c43e86e" name="MachineMaker5">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219e3-dcea-1004-8831-57995c43e86e" name="MachineMaker1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219e6-dcea-1004-8831-57995c43e86e" name="MachineMaker2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219e9-dcea-1004-8831-57995c43e86e" name="MachineMaker3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219ec-dcea-1004-8831-57995c43e86e" name="MachineMaker4">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219ef-dcea-1004-8831-57995c43e86e" name="MachineModel1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219f2-dcea-1004-8831-57995c43e86e" name="MachineModel3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219f5-dcea-1004-8831-57995c43e86e" name="MachineModel4">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219f8-dcea-1004-8831-57995c43e86e" name="MachineModel5">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219fb-dcea-1004-8831-57995c43e86e" name="PredictiveAlarmText5_3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f6219fe-dcea-1004-8831-57995c43e86e" name="PredictiveAlarmText1_1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a01-dcea-1004-8831-57995c43e86e" name="PredictiveAlarmText1_2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a17-dcea-1004-8831-57995c43e86e" name="cf">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/home/cameron/workspace/hackathon/models/domeModel/CF.py</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a18-dcea-1004-8831-57995c43e86e" name="simmat">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/home/cameron/workspace/hackathon/models/domeModel/simMat.txt</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a19-dcea-1004-8831-57995c43e86e" name="errorfile">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/home/cameron/workspace/hackathon/models/domeModel/error_message.txt</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a1a-dcea-1004-8831-57995c43e86e" name="alarmfile">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/home/cameron/workspace/hackathon/models/domeModel/alarm_dat.csv</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a2b-dcea-1004-8831-57995c43e86e" name="AlarmText1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a2e-dcea-1004-8831-57995c43e86e" name="AlarmText2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a31-dcea-1004-8831-57995c43e86e" name="AlarmText3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a34-dcea-1004-8831-57995c43e86e" name="AlarmText4">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a37-dcea-1004-8831-57995c43e86e" name="NextActionText1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a3a-dcea-1004-8831-57995c43e86e" name="NextActionText2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a3d-dcea-1004-8831-57995c43e86e" name="NextActionText3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621a40-dcea-1004-8831-57995c43e86e" name="NextActionText4">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffab-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText1_3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffae-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText2_1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffb1-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText2_2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffb4-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText2_3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffb7-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText3_1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffba-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText3_2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffbd-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText3_3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffc0-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText4_1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffc3-dcea-1004-8796-2feda40f90fb" name="PredictivealarmText4_2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffc6-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText4_3">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffc9-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText5_1">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fe5fffcc-dcea-1004-8796-2feda40f90fb" name="PredictiveAlarmText5_2">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+    </parameters>
+    <contexts>
+        <context id="BUILD_CXT" name="Build View">
+            <modelobjects>
+                <parameter name="AlarmText1" idRef="6f621a2b-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="AlarmText2" idRef="6f621a2e-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="AlarmText3" idRef="6f621a31-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="AlarmText4" idRef="6f621a34-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="AlarmText5" idRef="66067740-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineIdVector" idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineStatusVector" idRef="6606772b-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="NextActionText1" idRef="6f621a37-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="NextActionText2" idRef="6f621a3a-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="NextActionText3" idRef="6f621a3d-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="NextActionText4" idRef="6f621a40-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="NextActionText5" idRef="66067743-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineModel2" idRef="6f62199e-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineMaker1" idRef="6f6219e3-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineMaker2" idRef="6f6219e6-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineModel3" idRef="6f6219f2-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineModel4" idRef="6f6219f5-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineModel5" idRef="6f6219f8-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineModel1" idRef="6f6219ef-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineMaker3" idRef="6f6219e9-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineMaker4" idRef="6f6219ec-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="MachineMaker5" idRef="6f6219e0-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText1_1" idRef="6f6219fe-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText1_2" idRef="6f621a01-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText1_3" idRef="fe5fffab-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText2_1" idRef="fe5fffae-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText2_2" idRef="fe5fffb1-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText2_3" idRef="fe5fffb4-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText3_1" idRef="fe5fffb7-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText3_2" idRef="fe5fffba-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText3_3" idRef="fe5fffbd-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText4_1" idRef="fe5fffc0-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictivealarmText4_2" idRef="fe5fffc3-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText4_3" idRef="fe5fffc6-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText5_1" idRef="fe5fffc9-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText5_2" idRef="fe5fffcc-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="PredictiveAlarmText5_3" idRef="6f6219fb-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+            </modelobjects>
+        </context>
+        <context id="FILE_CXT" name="Files">
+            <modelobjects>
+                <parameter name="output" idRef="0715a343-dce9-1004-8604-802e95f2ec1f" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="program" idRef="0715a344-dce9-1004-8604-802e95f2ec1f" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="data" idRef="0715a372-dce9-1004-8604-802e95f2ec1f" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="cf" idRef="6f621a17-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="simmat" idRef="6f621a18-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="errorfile" idRef="6f621a19-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                <parameter name="alarmfile" idRef="6f621a1a-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+            </modelobjects>
+        </context>
+    </contexts>
+    <mappings>
+        <modelMappings>
+            <mappedParameter name="PredictiveAlarmText2_1" idRef="fe5fffae-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText2_1</mappedParameter>
+            <mappedParameter name="NextActionText1" idRef="6f621a37-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">NextActionText1</mappedParameter>
+            <mappedParameter name="AlarmText4" idRef="6f621a34-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">AlarmText4</mappedParameter>
+            <mappedParameter name="MachineStatusVector" idRef="6606772b-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineStatusVector</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText3_2" idRef="fe5fffba-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText3_2</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText3_1" idRef="fe5fffb7-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText3_1</mappedParameter>
+            <mappedParameter name="NextActionText2" idRef="6f621a3a-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">NextActionText2</mappedParameter>
+            <mappedParameter name="PredictivealarmText4_2" idRef="fe5fffc3-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText4_2</mappedParameter>
+            <mappedParameter name="MachineIdVector" idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineIdVector</mappedParameter>
+            <mappedParameter name="MachineMaker5" idRef="6f6219e0-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineMaker5</mappedParameter>
+            <mappedParameter name="AlarmText5" idRef="66067740-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">AlarmText5</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText5_2" idRef="fe5fffcc-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText5_2</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText2_3" idRef="fe5fffb4-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText2_3</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText5_3" idRef="6f6219fb-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText5_3</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText1_2" idRef="6f621a01-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText1_2</mappedParameter>
+            <mappedParameter name="NextActionText3" idRef="6f621a3d-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">NextActionText3</mappedParameter>
+            <mappedParameter name="MachineModel4" idRef="6f6219f5-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineModel4</mappedParameter>
+            <mappedParameter name="MachineModel3" idRef="6f6219f2-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineModel3</mappedParameter>
+            <mappedParameter name="AlarmText2" idRef="6f621a2e-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">AlarmText2</mappedParameter>
+            <mappedParameter name="NextActionText4" idRef="6f621a40-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">NextActionText4</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText4_1" idRef="fe5fffc0-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText4_1</mappedParameter>
+            <mappedParameter name="MachineMaker2" idRef="6f6219e6-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineMaker2</mappedParameter>
+            <mappedParameter name="NextActionText5" idRef="66067743-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">NextActionText5</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText3_3" idRef="fe5fffbd-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText3_3</mappedParameter>
+            <mappedParameter name="MachineMaker4" idRef="6f6219ec-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineMaker4</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText5_1" idRef="fe5fffc9-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText5_1</mappedParameter>
+            <mappedParameter name="MachineMaker1" idRef="6f6219e3-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineMaker1</mappedParameter>
+            <mappedParameter name="AlarmText3" idRef="6f621a31-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">AlarmText3</mappedParameter>
+            <mappedParameter name="MachineModel1" idRef="6f6219ef-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineModel1</mappedParameter>
+            <mappedParameter name="MachineMaker3" idRef="6f6219e9-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineMaker3</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText2_2" idRef="fe5fffb1-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText2_2</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText4_3" idRef="fe5fffc6-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText4_3</mappedParameter>
+            <mappedParameter name="MachineModel2" idRef="6f62199e-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineModel2</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText1_3" idRef="fe5fffab-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText1_3</mappedParameter>
+            <mappedParameter name="PredictiveAlarmText1_1" idRef="6f6219fe-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">PredictiveAlarmText1_1</mappedParameter>
+            <mappedParameter name="AlarmText1" idRef="6f621a2b-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">AlarmText1</mappedParameter>
+            <mappedParameter name="MachineModel5" idRef="6f6219f8-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f">MachineModel5</mappedParameter>
+        </modelMappings>
+    </mappings>
+    <dependencies>
+        <dependency idRef="fe5fffae-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a37-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a34-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6606772b-dcea-1004-8779-341354bf9d05">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffba-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffb7-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a3a-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffc3-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219e0-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="66067740-dcea-1004-8779-341354bf9d05">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffcc-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffb4-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219fb-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a01-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a3d-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219f5-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219f2-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a2e-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a40-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffc0-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219e6-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="66067743-dcea-1004-8779-341354bf9d05">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffbd-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219ec-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffc9-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219e3-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a31-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219ef-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219e9-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffb1-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffc6-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f62199e-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="fe5fffab-dcea-1004-8796-2feda40f90fb">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219fe-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f6219f8-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+        <dependency idRef="6f621a2b-dcea-1004-8831-57995c43e86e">
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+        </dependency>
+    </dependencies>
+    <setup>
+        <parameter id="input file location" name="input file location">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath></filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="output file location" name="output file location">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>data.out</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="executable location" name="executable location">
+            <currentType value="File"/>
+            <data>
+                <dataobject type="File">
+                    <filePath>/usr/bin/python</filePath>
+                    <fileType>Binary</fileType>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="command line arguments" name="command line arguments">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">/home/cameron/workspace/hackathon/models/domeModel/main.py</dataobject>
+            </data>
+        </parameter>
+    </setup>
+    <auxfiles>
+        <auxfile id="0715a36a-dce9-1004-8604-802e95f2ec1f" name="output">
+            <isMainModelFile value="false"/>
+            <isExcuteOnServer value="true"/>
+            <fileType>file:///</fileType>
+            <file>/home/cameron/workspace/hackathon/models/domeModel/data.out</file>
+        </auxfile>
+        <auxfile id="0715a36b-dce9-1004-8604-802e95f2ec1f" name="program">
+            <isMainModelFile value="true"/>
+            <isExcuteOnServer value="true"/>
+            <fileType>file:///</fileType>
+            <file>/home/cameron/workspace/hackathon/models/domeModel/main.py</file>
+        </auxfile>
+        <auxfile id="0715a373-dce9-1004-8604-802e95f2ec1f" name="data">
+            <isMainModelFile value="false"/>
+            <isExcuteOnServer value="true"/>
+            <fileType>file:///</fileType>
+            <file>/home/cameron/workspace/hackathon/models/domeModel/data.csv</file>
+        </auxfile>
+        <auxfile id="6f621a1b-dcea-1004-8831-57995c43e86e" name="cf">
+            <isMainModelFile value="false"/>
+            <isExcuteOnServer value="true"/>
+            <fileType>file:///</fileType>
+            <file>/home/cameron/workspace/hackathon/models/domeModel/CF.py</file>
+        </auxfile>
+        <auxfile id="6f621a1c-dcea-1004-8831-57995c43e86e" name="simmat">
+            <isMainModelFile value="false"/>
+            <isExcuteOnServer value="true"/>
+            <fileType>file:///</fileType>
+            <file>/home/cameron/workspace/hackathon/models/domeModel/simMat.txt</file>
+        </auxfile>
+        <auxfile id="6f621a1d-dcea-1004-8831-57995c43e86e" name="errorfile">
+            <isMainModelFile value="false"/>
+            <isExcuteOnServer value="true"/>
+            <fileType>file:///</fileType>
+            <file>/home/cameron/workspace/hackathon/models/domeModel/error_message.txt</file>
+        </auxfile>
+        <auxfile id="6f621a1e-dcea-1004-8831-57995c43e86e" name="alarmfile">
+            <isMainModelFile value="false"/>
+            <isExcuteOnServer value="true"/>
+            <fileType>file:///</fileType>
+            <file>/home/cameron/workspace/hackathon/models/domeModel/alarm_dat.csv</file>
+        </auxfile>
+    </auxfiles>
+</model>

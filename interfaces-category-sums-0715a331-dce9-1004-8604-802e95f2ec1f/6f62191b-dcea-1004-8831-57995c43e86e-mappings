@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="6f62191b-dcea-1004-8831-57995c43e86e" name="MachineMonitor">
+    <interfaceinfo>
+        <version>0.0.1</version>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="MachineStatusVector" idRef="6f621926-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineStatusVector" idRef="6606772b-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineIdVector" idRef="6f621925-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineIdVector" idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+</modelinterface>

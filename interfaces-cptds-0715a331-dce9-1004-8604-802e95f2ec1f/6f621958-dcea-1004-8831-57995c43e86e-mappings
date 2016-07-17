@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="6f621958-dcea-1004-8831-57995c43e86e" name="MonitorMachines">
+    <interfaceinfo>
+        <version>0.0.1</version>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="PredictiveAlarmText3_3" idRef="fe5fffe5-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText3_3" idRef="fe5fffbd-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineModel5" idRef="6f621a09-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineModel5" idRef="6f6219f8-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText5_3" idRef="fe5fffeb-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText5_3" idRef="6f6219fb-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText1_3" idRef="fe5fffdf-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText1_3" idRef="fe5fffab-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText5_1" idRef="fe5fffe9-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText5_1" idRef="fe5fffc9-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText5" idRef="fe5fffdc-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="NextActionText5" idRef="66067743-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText3" idRef="fe5fffda-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="NextActionText3" idRef="6f621a3d-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineModel2" idRef="6f621a04-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineModel2" idRef="6f62199e-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText1_1" idRef="fe5fffdd-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText1_1" idRef="6f6219fe-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineMaker2" idRef="6f621a06-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineMaker2" idRef="6f6219e6-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText3_2" idRef="fe5fffe4-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText3_2" idRef="fe5fffba-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="AlarmText2" idRef="f0f2068b-dcea-1004-84ab-95d13a75b121">
+                    <parameter name="AlarmText2" idRef="6f621a2e-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText5_2" idRef="fe5fffea-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText5_2" idRef="fe5fffcc-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineStatusVector" idRef="6f62195f-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineStatusVector" idRef="6606772b-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineIdVector" idRef="6f62195e-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineIdVector" idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineModel4" idRef="6f621a08-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineModel4" idRef="6f6219f5-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineMaker4" idRef="6f621a0c-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineMaker4" idRef="6f6219ec-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText1" idRef="fe5fffd8-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="NextActionText1" idRef="6f621a37-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="AlarmText5" idRef="f0f2068e-dcea-1004-84ab-95d13a75b121">
+                    <parameter name="AlarmText5" idRef="66067740-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText2_2" idRef="fe5fffe1-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText2_2" idRef="fe5fffb1-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText2" idRef="fe5fffd9-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="NextActionText2" idRef="6f621a3a-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="input" idRef="6f621970-dcea-1004-8831-57995c43e86e">
+                    <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText2_1" idRef="fe5fffe0-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText2_1" idRef="fe5fffae-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText4" idRef="fe5fffdb-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="NextActionText4" idRef="6f621a40-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText1_2" idRef="fe5fffde-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText1_2" idRef="6f621a01-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictivealarmText4_2" idRef="fe5fffe7-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictivealarmText4_2" idRef="fe5fffc3-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText3_1" idRef="fe5fffe3-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText3_1" idRef="fe5fffb7-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineModel1" idRef="6f621a0a-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineModel1" idRef="6f6219ef-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineMaker1" idRef="6f621a05-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineMaker1" idRef="6f6219e3-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="AlarmText3" idRef="f0f2068c-dcea-1004-84ab-95d13a75b121">
+                    <parameter name="AlarmText3" idRef="6f621a31-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineModel3" idRef="6f621a07-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineModel3" idRef="6f6219f2-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="AlarmText4" idRef="f0f2068d-dcea-1004-84ab-95d13a75b121">
+                    <parameter name="AlarmText4" idRef="6f621a34-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="AlarmText1" idRef="f0f2068a-dcea-1004-84ab-95d13a75b121">
+                    <parameter name="AlarmText1" idRef="6f621a2b-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText4_3" idRef="fe5fffe8-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText4_3" idRef="fe5fffc6-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineMaker3" idRef="6f621a0b-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineMaker3" idRef="6f6219e9-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText2_3" idRef="fe5fffe2-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText2_3" idRef="fe5fffb4-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineMaker5" idRef="6f621a0d-dcea-1004-8831-57995c43e86e">
+                    <parameter name="MachineMaker5" idRef="6f6219e0-dcea-1004-8831-57995c43e86e" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="PredictiveAlarmText4_1" idRef="fe5fffe6-dcea-1004-8796-2feda40f90fb">
+                    <parameter name="PredictiveAlarmText4_1" idRef="fe5fffc0-dcea-1004-8796-2feda40f90fb" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+</modelinterface>

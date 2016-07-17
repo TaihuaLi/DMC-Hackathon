@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="0715a33a-dce9-1004-8604-802e95f2ec1f" name="Default Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+        <defaultinterface/>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="MachineStatusVector" idRef="6606772d-dcea-1004-8779-341354bf9d05">
+                    <parameter name="MachineStatusVector" idRef="6606772b-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="input" idRef="1b06313b-dce9-1004-8973-72aaea51cb19">
+                    <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="AlarmText" idRef="66067742-dcea-1004-8779-341354bf9d05">
+                    <parameter name="AlarmText" idRef="66067740-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText" idRef="66067745-dcea-1004-8779-341354bf9d05">
+                    <parameter name="NextActionText" idRef="66067743-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineIdVector" idRef="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1">
+                    <parameter name="MachineIdVector" idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText" idRef="66067744-dcea-1004-8779-341354bf9d05">
+                    <parameter name="NextActionText" idRef="66067743-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineIdVector" idRef="0ad1bc9e-dcea-1004-8cb5-3bfe5dbabfe1">
+                    <parameter name="MachineIdVector" idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="MachineStatusVector" idRef="6606772c-dcea-1004-8779-341354bf9d05">
+                    <parameter name="MachineStatusVector" idRef="6606772b-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="input" idRef="1b06313a-dce9-1004-8973-72aaea51cb19">
+                    <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="AlarmText" idRef="66067741-dcea-1004-8779-341354bf9d05">
+                    <parameter name="AlarmText" idRef="66067740-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+    <lookupdata>
+        <objectmap>
+            <parameter name="input" idRef="1b063139-dce9-1004-8973-72aaea51cb19" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f" description="key"/>
+            <parameter name="input" idRef="1b06313a-dce9-1004-8973-72aaea51cb19" description="value"/>
+            <parameter name="NextActionText" idRef="66067743-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f" description="key"/>
+            <parameter name="NextActionText" idRef="66067744-dcea-1004-8779-341354bf9d05" description="value"/>
+            <parameter name="MachineStatusVector" idRef="6606772b-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f" description="key"/>
+            <parameter name="MachineStatusVector" idRef="6606772c-dcea-1004-8779-341354bf9d05" description="value"/>
+            <parameter name="AlarmText" idRef="66067740-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f" description="key"/>
+            <parameter name="AlarmText" idRef="66067741-dcea-1004-8779-341354bf9d05" description="value"/>
+            <parameter name="MachineIdVector" idRef="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f" description="key"/>
+            <parameter name="MachineIdVector" idRef="0ad1bc9e-dcea-1004-8cb5-3bfe5dbabfe1" description="value"/>
+        </objectmap>
+        <viewobjectmap>
+            <parameter name="NextActionText" idRef="66067744-dcea-1004-8779-341354bf9d05" description="key"/>
+            <parameter name="NextActionText" idRef="66067745-dcea-1004-8779-341354bf9d05" description="value"/>
+            <parameter name="MachineIdVector" idRef="0ad1bc9e-dcea-1004-8cb5-3bfe5dbabfe1" description="key"/>
+            <parameter name="MachineIdVector" idRef="0ad1bc9f-dcea-1004-8cb5-3bfe5dbabfe1" description="value"/>
+            <parameter name="MachineStatusVector" idRef="6606772c-dcea-1004-8779-341354bf9d05" description="key"/>
+            <parameter name="MachineStatusVector" idRef="6606772d-dcea-1004-8779-341354bf9d05" description="value"/>
+            <parameter name="input" idRef="1b06313a-dce9-1004-8973-72aaea51cb19" description="key"/>
+            <parameter name="input" idRef="1b06313b-dce9-1004-8973-72aaea51cb19" description="value"/>
+            <parameter name="AlarmText" idRef="66067741-dcea-1004-8779-341354bf9d05" description="key"/>
+            <parameter name="AlarmText" idRef="66067742-dcea-1004-8779-341354bf9d05" description="value"/>
+        </viewobjectmap>
+        <relationobjectmap/>
+    </lookupdata>
+</modelinterface>

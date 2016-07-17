@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="6f621920-dcea-1004-8831-57995c43e86e" name="AlarmActions">
+    <interfaceinfo>
+        <version>0.0.1</version>
+    </interfaceinfo>
+    <parameters>
+        <parameter id="6f621927-dcea-1004-8831-57995c43e86e" name="AlarmText">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621928-dcea-1004-8831-57995c43e86e" name="NextActionText">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+    </parameters>
+    <visualizations/>
+    <relations/>
+    <contexts>
+        <context id="IFACE_MODEL_CXT" name="Model View"/>
+    </contexts>
+    <views>
+        <view name="Build View">
+            <context id="IFACE_BUILD_CXT" name="Build View">
+                <modelobjects>
+                    <parameter name="AlarmText" idRef="6f621927-dcea-1004-8831-57995c43e86e"/>
+                    <parameter name="NextActionText" idRef="6f621928-dcea-1004-8831-57995c43e86e"/>
+                </modelobjects>
+            </context>
+        </view>
+        <view name="Interface Causality View">
+            <filter id="INPUTS_FILTER" name="Inputs"/>
+            <filter id="OUTPUTS_FILTER" name="Outputs">
+                <parameters>
+                    <parameter name="AlarmText" idRef="6f621927-dcea-1004-8831-57995c43e86e" causality="Result"/>
+                    <parameter name="NextActionText" idRef="6f621928-dcea-1004-8831-57995c43e86e" causality="Result"/>
+                </parameters>
+            </filter>
+            <filter id="INDETERMINATES_FILTER" name="Indeterminates"/>
+        </view>
+    </views>
+    <directedGraph id="6f621920-dcea-1004-8831-57995c43e86e">
+        <nodes>
+            <node idRef="6f621927-dcea-1004-8831-57995c43e86e"/>
+            <node idRef="6f621928-dcea-1004-8831-57995c43e86e"/>
+        </nodes>
+        <arcs/>
+    </directedGraph>
+    <interfaceToRelParamMap>
+        <iToRpMap relParamId="6f621927-dcea-1004-8831-57995c43e86e" ifaceId="66067740-dcea-1004-8779-341354bf9d05"/>
+        <iToRpMap relParamId="6f621928-dcea-1004-8831-57995c43e86e" ifaceId="66067743-dcea-1004-8779-341354bf9d05"/>
+    </interfaceToRelParamMap>
+</modelinterface>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="6f621920-dcea-1004-8831-57995c43e86e" name="AlarmActions">
+    <interfaceinfo>
+        <version>0.0.1</version>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="AlarmText" idRef="6f621927-dcea-1004-8831-57995c43e86e">
+                    <parameter name="AlarmText" idRef="66067740-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+                <mappedParameter name="NextActionText" idRef="6f621928-dcea-1004-8831-57995c43e86e">
+                    <parameter name="NextActionText" idRef="66067743-dcea-1004-8779-341354bf9d05" idModelRef="0715a331-dce9-1004-8604-802e95f2ec1f"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+</modelinterface>

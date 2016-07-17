@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="6f62191b-dcea-1004-8831-57995c43e86e" name="MachineMonitor">
+    <interfaceinfo>
+        <version>0.0.1</version>
+    </interfaceinfo>
+    <parameters>
+        <parameter id="6f621925-dcea-1004-8831-57995c43e86e" name="MachineIdVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+        <parameter id="6f621926-dcea-1004-8831-57995c43e86e" name="MachineStatusVector">
+            <currentType value="Vector"/>
+            <data>
+                <dataobject type="Vector">
+                    <unit>No_Unit</unit>
+                    <rowVector>false</rowVector>
+                    <initialValue type="integer">0</initialValue>
+                    <fixedSize>false</fixedSize>
+                    <data type="integer">0,0,0,0</data>
+                </dataobject>
+            </data>
+        </parameter>
+    </parameters>
+    <visualizations/>
+    <relations/>
+    <contexts>
+        <context id="IFACE_MODEL_CXT" name="Model View"/>
+    </contexts>
+    <views>
+        <view name="Build View">
+            <context id="IFACE_BUILD_CXT" name="Build View">
+                <modelobjects>
+                    <parameter name="MachineIdVector" idRef="6f621925-dcea-1004-8831-57995c43e86e"/>
+                    <parameter name="MachineStatusVector" idRef="6f621926-dcea-1004-8831-57995c43e86e"/>
+                </modelobjects>
+            </context>
+        </view>
+        <view name="Interface Causality View">
+            <filter id="INPUTS_FILTER" name="Inputs"/>
+            <filter id="OUTPUTS_FILTER" name="Outputs">
+                <parameters>
+                    <parameter name="MachineIdVector" idRef="6f621925-dcea-1004-8831-57995c43e86e" causality="Result"/>
+                    <parameter name="MachineStatusVector" idRef="6f621926-dcea-1004-8831-57995c43e86e" causality="Result"/>
+                </parameters>
+            </filter>
+            <filter id="INDETERMINATES_FILTER" name="Indeterminates"/>
+        </view>
+    </views>
+    <directedGraph id="6f62191b-dcea-1004-8831-57995c43e86e">
+        <nodes>
+            <node idRef="6f621925-dcea-1004-8831-57995c43e86e"/>
+            <node idRef="6f621926-dcea-1004-8831-57995c43e86e"/>
+        </nodes>
+        <arcs/>
+    </directedGraph>
+    <interfaceToRelParamMap>
+        <iToRpMap relParamId="6f621925-dcea-1004-8831-57995c43e86e" ifaceId="0ad1bc9d-dcea-1004-8cb5-3bfe5dbabfe1"/>
+        <iToRpMap relParamId="6f621926-dcea-1004-8831-57995c43e86e" ifaceId="6606772b-dcea-1004-8779-341354bf9d05"/>
+    </interfaceToRelParamMap>
+</modelinterface>

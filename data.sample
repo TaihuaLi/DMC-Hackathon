@@ -1,0 +1,26 @@
+MachineIdVector = [1
+2
+3
+4
+5]
+AlarmText = Big problem
+MachineStatusVector = [1
+2
+3
+4
+5]
+NextActionText = Next 
+MachineId = 46
+MachineMaker1 = Pfauter
+MachineMaker2 = Pfauter2
+MachineMaker3 = Pfauter2
+MachineMaker4 = Pfauter2
+MachineMaker5 = Pfauter2
+MachineModel1 = PE1600
+MachineModel2 = PE1600
+MachineModel3 = PE1600
+MachineModel4 = PE1600
+MachineModel5 = PE1600
+PredictiveAlarmText1 = 
+PredictiveAlarmText2 = 
+PredictiveAlarmText3 = 
