@@ -1,4 +1,4 @@
-# DMC Hackathon
+# DMC Hackathon Project
 Project for [DMC Hackathon](http://hackdmc.org)
 
 ## FDDPS: Fault Detection, Diagnosis and Prognosis System
