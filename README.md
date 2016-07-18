@@ -1,8 +1,7 @@
 # DMC Hackathon Project
 Find DMC Hackathon information [here](http://hackdmc.org).
-
-## FDDPS: Fault Detection, Diagnosis and Prognosis System
 <hr>
+## FDDPS: Fault Detection, Diagnosis and Prognosis System
 ![alt tag](https://github.com/TaihuaLi/DMC-Hackathon/blob/master/Logo.png?raw=true)
 This project was completed within 40 hours (Friday 8:30pm - Sunday 2pm) for DMC Hackathon in July 2016. The hackathon brought professional programmers, data miners and business professionals around the nation to Chicago to develop innovative technological solutions for leveraging manufacturing industry.
 
