@@ -16,4 +16,4 @@ Our team project, Fault Detection, Diagnosis and Prognosis System (FDDPS), is a 
 * [Peng Wang](https://www.linkedin.com/in/peng-wang-58a297125)
 * [Surojit Ganguli](https://www.linkedin.com/in/surojit-ganguli-a5273661)
 
-![alt tag](https://pbs.twimg.com/media/CnnfanvXgAAzhu4.jpg)
+![alt tag](https://github.com/TaihuaLi/DMC-Hackathon/blob/master/Team.PNG?raw=true)
